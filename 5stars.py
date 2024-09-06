@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 제목
-st.title("UModeler X 별점 계산기")
+st.title("에셋 스토어 별점 계산기")
 
 # 입력 폼
 five_star = st.number_input("5점 리뷰 수", min_value=0, value=22)
