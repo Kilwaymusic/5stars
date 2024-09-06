@@ -4,11 +4,11 @@ import streamlit as st
 st.title("에셋 스토어 별점 계산기")
 
 # 입력 폼
-five_star = st.number_input("5점 리뷰 수", min_value=0, value=22)
-four_star = st.number_input("4점 리뷰 수", min_value=0, value=5)
-three_star = st.number_input("3점 리뷰 수", min_value=0, value=1)
+five_star = st.number_input("5점 리뷰 수", min_value=0, value=0)
+four_star = st.number_input("4점 리뷰 수", min_value=0, value=0)
+three_star = st.number_input("3점 리뷰 수", min_value=0, value=0)
 two_star = st.number_input("2점 리뷰 수", min_value=0, value=0)
-one_star = st.number_input("1점 리뷰 수", min_value=0, value=2)
+one_star = st.number_input("1점 리뷰 수", min_value=0, value=0)
 
 if st.button("계산하기"):
     # 리뷰 데이터
